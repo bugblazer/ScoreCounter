@@ -25,11 +25,11 @@ body {
     align-items: center;
     background-color: #000000;
     color: #F94F6D;
-    width: 120px;
-    height: 100px;
+    width: 220px;
+    height: 200px;
     border-radius: 5px;
     font-family: timer-font;
-    font-size: 50px;
+    font-size: 80px;
     margin-top: -8px;
     margin-bottom: -8px;
 }
@@ -40,10 +40,18 @@ body {
 
 button {
     font-family: timer-font;
+    font-size: 40px;
     background-color: #1b244a;
     color: #9AABD8;
     border: 1px solid #9AABD8;
     border-radius: 5px;
     padding: 5px;
     margin: 3px;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: #7c3aed;
+    cursor: pointer;
+    transition: background-color 1.5s, color 1.5s;
 }
