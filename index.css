@@ -55,3 +55,8 @@ button:hover {
     cursor: pointer;
     transition: background-color 1.5s, color 1.5s;
 }
+
+#reset-btn {
+    display: flex;
+    justify-content: center;
+}

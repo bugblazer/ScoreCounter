@@ -34,3 +34,8 @@ function guestScoreBoard(id) {
         document.getElementById("guest-score").innerText = guestScore;
     }
 }
+
+function reset() {
+    document.getElementById("home-score").innerText = 0;
+    document.getElementById("guest-score").innerText = 0;
+}
